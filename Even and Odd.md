@@ -1,4 +1,4 @@
-# 문제설명
+# 문제설명 
 #### 정수 num이 짝수일 경우 "Even"을 반환, 홀수일 경우 "Odd"를 반환<br><br><br>
 # 제한조건
 #### 
@@ -14,8 +14,6 @@
 
 <br>
 
-
-
 ```java
 class Solution {
   public String solution(int num) {
@@ -29,14 +27,4 @@ class Solution {
   }
 }
 ```
-
-```c
-#include<stdio.h>
-int main(void)
-{
-  printf("hi");
-  return 0;
-}
-```
- 
 
