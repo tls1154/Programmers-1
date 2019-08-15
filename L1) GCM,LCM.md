@@ -24,11 +24,13 @@ class Solution4 {
 			  m = temp;
 		  }
 		  
-		  if(m<=0)
+		  // 삼항 연산자
+		  return (m<=0) ? n : GCM(m, n%m);
+		  //if(m<=0)
 	    	        // 최대공약수
-	    	        return n;
-	          else
-	    	        return GCM(m, n%m);
+	    	        //return n;
+	          //else
+	    	        //return GCM(m, n%m);
 	  }
 	
 	  public int[] solution(int n, int m) {
