@@ -11,6 +11,7 @@
 | 3 | 5 | 12 |
 | 3 | 3 | 3 |
 | 5 | 3 | 12 |  
+
 ```java
 class Solution {
   public long solution(int a, int b) {
@@ -29,3 +30,4 @@ class Solution {
       }
 }
 ```
+Update
